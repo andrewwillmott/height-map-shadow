@@ -11,3 +11,4 @@ Or indeed,
 
     clang++ -D TEST_HMS HeightMapShadow.cpp targa.c -o hms && ./hms
 
+See http://www.andrewwillmott.com/tech-notes#TOC-Height-Map-Shadows for more info.
