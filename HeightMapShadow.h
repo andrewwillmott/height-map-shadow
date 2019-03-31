@@ -6,11 +6,8 @@
 #define HEIGHT_MAP_SHADOW_H
 
 #include "VL234f.h"
+#include <algorithm>
 #include <vector>
-
-// For testing, define TEST_CUBEMAP_UTILS or TEST_CUBEMAP_NMAP. (The latter requires linking
-// with targa.c.) E.g.,
-// g++ -D TEST_HMS HeightMapShadow.cpp targa.c -o hmstest && ./hmstest
 
 const float  kDefaultShadowStrength     = 1;        // strength modifier for hill shadows.
 const float  kDefaultMaxUnshadowedDepth = -1000;    // below this depth we're always in shadow
